@@ -24,3 +24,5 @@ This program convert asember code into object code.
 
 ## License
 I captured Algorithm image in 'System Software' written by Leland L.Beck. It is school project, free to use!
+## report
+[보고서](https://docs.google.com/document/d/1DL4Y6oUO35UdwE0bXun5skxo8J4mHi3DCiw2uZLWrTM/edit?usp=sharing)
