@@ -38,6 +38,7 @@ void path2()
 	}
 	if(!strcmp(Opcode,"START"))
 	{
+		strcpy(listingLine, "");
 		strcat(listingLine, Label);
 		numberTemp = strtol(Operand,&pEnd,16);
 		numto(numberTemp, ObjectCode);
@@ -55,6 +56,20 @@ void path2()
 		{
 			numofcolum = readline(source);
 		}
+	}
+	else
+	{
+		strcpy(listingLine, "");
+		strcat(listingLine, "BOOT");
+		numberTemp = 0X0;
+		numto(numberTemp, ObjectCode);
+		strcat(listingLine, ObjectCode);
+		numto(programLength, ObjectCode);
+		strcat(listingLine, ObjectCode);
+		
+		startingadres = numberTemp;
+		LocCtr = numberTemp;
+		LineStartLocCtr = LocCtr;
 	}
 	fprintf(object,"H%s\n",listingLine);
 	strcpy(listingLine,"");
