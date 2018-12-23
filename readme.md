@@ -23,6 +23,6 @@ This program convert asember code into object code.
 ![path2 algo](https://github.com/gwnuysw/Assembler/blob/master/SystemProgramming_Asembler_20141640%EC%9D%B4%EC%84%9D%EC%9B%90/%EC%BA%A1%EC%B2%98%EC%82%AC%EC%A7%84/path2algo.jpg?raw=true)
 
 ## License
-I captured Algorithm image in 'System Software' written by Leland L.Beck. It is school project, free to use!
+I captured Algorithm image in 'System Software' written by Leland L.Beck.
 ## report
 [보고서](https://docs.google.com/document/d/1DL4Y6oUO35UdwE0bXun5skxo8J4mHi3DCiw2uZLWrTM/edit?usp=sharing)
